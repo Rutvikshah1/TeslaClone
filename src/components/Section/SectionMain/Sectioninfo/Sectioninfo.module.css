@@ -1,0 +1,100 @@
+section {
+  margin: 0;
+  background-color: black;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 4rem;
+}
+.wrapperone {
+  width: 15%;
+}
+
+.wrappertwo {
+  width: 65%;
+}
+
+h2 {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: white;
+  font-family: 'HeiT ASC Traditional Chinese';
+  letter-spacing: 2px;
+  display: inline;
+}
+
+.information {
+  line-height: 1.6;
+  font-size: 1rem;
+  display: inline;
+  color: white;
+  font-family: 'HeiT ASC Traditional Chinese';
+  letter-spacing: 2px;
+  width: 70%;
+}
+
+.section_image {
+  height: 100%;
+  width: 80%;
+  margin: 2rem 8.5rem;
+  clip-path: polygon(
+    0 0,
+    100% 0,
+    100% calc(100% - 80px),
+    calc(100% - 80px) 100%,
+    0 100%
+  );
+}
+
+@media (max-width: 510px) {
+  .wrapper {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 4rem;
+
+    border: 1px solid black;
+  }
+
+  .wrapperone {
+    width: 80%;
+    margin-bottom: 2rem;
+  }
+  h2 {
+    line-height: 1.6;
+    font-size: 1rem;
+    color: white;
+    font-family: 'HeiT ASC Traditional Chinese';
+    letter-spacing: 2px;
+    width: 100%;
+    display: inline;
+  }
+
+  .wrappertwo {
+    width: 85%;
+  }
+  .information {
+    line-height: 1.6;
+    font-size: 0.8rem;
+    display: inline;
+    color: white;
+
+    font-family: 'HeiT ASC Traditional Chinese';
+    letter-spacing: 1.2px;
+    width: 100%;
+  }
+
+  .section_image {
+    height: 100%;
+    width: 85%;
+    margin: 1rem 1.5rem;
+    clip-path: polygon(
+      0 0,
+      100% 0,
+      100% calc(100% - 30px),
+      calc(100% - 30px) 100%,
+      0 100%
+    );
+  }
+}

@@ -1,0 +1,47 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper_one {
+  width: 80%;
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+
+img {
+  width: 100%;
+  height: 80vh;
+}
+
+.detailed_wrapper {
+  display: flex;
+}
+
+.wrapper_two {
+  margin-left: 10rem;
+  margin-top: 2rem;
+}
+.wrapper_two h3 {
+  line-height: 1.6;
+  font-size: 1rem;
+  display: inline;
+  color: black;
+  font-family: 'HeiT ASC Traditional Chinese';
+  letter-spacing: 2px;
+  width: 100%;
+  vertical-align: middle;
+}
+.wrapper_three {
+  width: 60%;
+  margin-left: 4rem;
+  margin-top: 1.8rem;
+}
+
+.wrapper_three p {
+  line-height: 1.6;
+  font-size: 1rem;
+  color: black;
+  font-family: 'HeiT ASC Traditional Chinese';
+  letter-spacing: 2px;
+}
